@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Game Ball</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="wrapper_score">
+    <span id="currentScore">Score: <span>0</span></span><br>
+    <div id="timeUp"></div><br>
+    <button  class="btn_reset" onclick="location.reload()"> Reset</button>
+</div>
+
+<div id="gameOver">
+    <p> Game Over!</p>
+</div>
+
+<canvas onmouseup="mouseUp()" onmousedown="mouseDown()" id="myCanvas" width="700px" height="500px"
+        style="cursor: url(hammer01.png),auto"></canvas>
+</canvas>
+<script src="my.js"></script>
+</body>
+</html>

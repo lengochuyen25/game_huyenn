@@ -1,0 +1,93 @@
+body {
+    background-color: #7774741a;
+}
+#myCanvas {
+    display: block;
+    margin: 0 auto;
+    background-image: url(bg_anhnen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 155px;
+    float: left;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+#wrapper_score {
+    display: block;
+    float: left;
+    height: 40px;
+    background: #a74213;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 15px;
+    margin-left: 112px;
+    margin-top: 150px;
+}
+#wrapper_score #currentScore {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Roboto,sans-serif";
+    padding-top: 5px;
+    float: left;
+    width: 100%;
+}
+#timeUp {
+    color: red;
+    float: left;
+    display: block;
+    position: relative;
+    padding-left: 75px;
+    font-size: 36px;
+    padding-top: 5px;
+    margin-top: 45px;
+    /* margin: 0 auto; */
+    margin-left: 25px;
+}
+#timeUp:before{
+    content:"";
+    position: absolute;
+    background-image: url(clock.png);
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left:0px;
+}
+.btn_reset {
+    margin-top: 28px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+    line-height: 35px;
+    border-radius: 50px;
+    background: #7c5627;
+    box-shadow: 0 4px 19.92px 4.08px rgba(0,0,0,.15);
+    padding: 0 47px;
+    margin-bottom: 50px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    text-transform: uppercase;
+}
+#gameOver{
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+    float: right;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    margin-left: 185px;
+    left: 28%;
+    top: 20%;
+    font-family: "Arial,sans-serif";
+    display:none;
+}
